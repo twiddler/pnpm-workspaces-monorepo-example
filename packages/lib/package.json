@@ -1,0 +1,11 @@
+{
+  "name": "@my/lib",
+  "version": "1.0.0",
+  "description": "A library you can use in your app",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ulid": "^2.3.0"
+  }
+}

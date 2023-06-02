@@ -1,0 +1,9 @@
+{
+  "name": "@my/nested-lib-a",
+  "version": "1.0.0",
+  "description": "A library you can use in your app",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
