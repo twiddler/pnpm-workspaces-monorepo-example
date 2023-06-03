@@ -11,7 +11,7 @@ It includes JavaScript and (soon) TypeScript examples:
 
 - `js-commonjs`: JavaScript code with CommonJs modules
 - `js-esm`: JavaScript code with EcmaScript modules
-- `ts-esm`: TypeScript code with EcmaScript modules
+- `ts-esm`: TypeScript code with EcmaScript modules **⚠️ work in progress ⚠️**
 
 # How to use
 

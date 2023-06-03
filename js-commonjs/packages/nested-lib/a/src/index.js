@@ -2,4 +2,4 @@ function bar() {
   return "nested-lib-a";
 }
 
-module.exports = bar;
+module.exports = { bar };

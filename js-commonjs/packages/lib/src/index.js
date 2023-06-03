@@ -1,7 +1,5 @@
-const { ulid } = require("ulid");
+const foo = require("./foo");
 
-function foo() {
-  return ulid();
-}
-
-module.exports = foo;
+module.exports = {
+  ...foo,
+};

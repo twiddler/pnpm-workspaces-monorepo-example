@@ -1,4 +1,4 @@
-import { foo } from "@my/lib";
+import { foo } from "@my/lib/src/foo";
 import { bar } from "@my/nested-lib-a";
 import { baz } from "@my/nested-lib-b";
 
