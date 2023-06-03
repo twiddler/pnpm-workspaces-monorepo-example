@@ -1,5 +1,5 @@
 {
-  "name": "pnpm-workspaces-monorepo-example-js-commonjs",
+  "name": "pnpm-workspaces-monorepo-example-ts",
   "version": "1.0.0",
   "description": "A basic working example of pnpm workspaces for a monorepo",
   "scripts": {

@@ -1,0 +1,16 @@
+{
+  "name": "@my/nested-lib-a",
+  "version": "1.0.0",
+  "description": "A library you can use in your app",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.1",
+    "typescript": "^5.1.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

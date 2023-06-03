@@ -1,9 +1,9 @@
 {
-  "name": "pnpm-workspaces-monorepo-example",
+  "name": "pnpm-workspaces-monorepo-example-js-esm",
   "version": "1.0.0",
   "description": "A basic working example of pnpm workspaces for a monorepo",
   "scripts": {
-    "start": "node packages/app/src/index.js"
+    "start": "pnpm --filter @my/app start"
   },
   "author": "",
   "license": "ISC"

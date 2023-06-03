@@ -1,6 +1,6 @@
 # What's this?
 
-This is the most basic working example of using pnpm workspaces. It'll help you understand setting up a monorepo with pnpm workspaces. It's got:
+This is the most basic working example of using [pnpm workspaces](https://pnpm.io/workspaces). It'll help you understand setting up a monorepo with pnpm workspaces. It's got:
 
 - An app that simulates what you'd deliver. It could be a server, a website, …
 - A library with functions you'd like to share among your other packages.
@@ -11,7 +11,7 @@ It includes JavaScript and (soon) TypeScript examples:
 
 - `js-commonjs`: JavaScript code with CommonJs modules
 - `js-esm`: JavaScript code with EcmaScript modules
-- `ts`: TypeScript code
+- `ts-esm`: TypeScript code with EcmaScript modules
 
 # How to use
 
