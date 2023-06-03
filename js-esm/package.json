@@ -1,0 +1,10 @@
+{
+  "name": "pnpm-workspaces-monorepo-example",
+  "version": "1.0.0",
+  "description": "A basic working example of pnpm workspaces for a monorepo",
+  "scripts": {
+    "start": "node packages/app/src/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

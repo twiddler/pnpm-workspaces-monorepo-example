@@ -1,0 +1,34 @@
+lockfileVersion: '6.0'
+
+importers:
+
+  .: {}
+
+  packages/app:
+    dependencies:
+      '@my/lib':
+        specifier: workspace:*
+        version: link:../lib
+      '@my/nested-lib-a':
+        specifier: workspace:*
+        version: link:../nested-lib/a
+      '@my/nested-lib-b':
+        specifier: workspace:*
+        version: link:../nested-lib/b
+
+  packages/lib:
+    dependencies:
+      ulid:
+        specifier: ^2.3.0
+        version: 2.3.0
+
+  packages/nested-lib/a: {}
+
+  packages/nested-lib/b: {}
+
+packages:
+
+  /ulid@2.3.0:
+    resolution: {integrity: sha512-keqHubrlpvT6G2wH0OEfSW4mquYRcbe/J8NMmveoQOjUqmo+hXtO+ORCpWhdbZ7k72UtY61BL7haGxW6enBnjw==}
+    hasBin: true
+    dev: false

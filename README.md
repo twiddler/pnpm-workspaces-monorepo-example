@@ -7,9 +7,15 @@ This is the most basic working example of using pnpm workspaces. It'll help you 
 - Another library which is organized in sub-packages.
 - A `pnpm-workspace.yaml` configuration.
 
+It includes JavaScript and (soon) TypeScript examples:
+
+- `js-commonjs`: JavaScript code with CommonJs modules
+- `js-esm`: JavaScript code with EcmaScript modules
+- `ts`: TypeScript code
+
 # How to use
 
-Clone the repository. Then
+Clone the repository. Open the directory of the example you'd like to explore. Then:
 
 ```console
 $ pnpm i
